@@ -1,0 +1,23 @@
+:root {
+    --primary: #34a7ff;
+    --white: #fffffe;
+    --black: #141414;
+    --grey: #9ba4ad;
+    --baseFont: 'Maven Pro', sans-serif;
+    --headline1: 700 5rem/normal var(--baseFont);
+    --headline2: 700 1.75rem/normal var(--baseFont);
+    --headline3: 700 1.625rem/3rem var(--baseFont);
+    --headline4: 700 1.5rem/normal var(--baseFont);
+    --button: 700 1.125rem/1.75rem var(--baseFont);
+    --body1-regular: 400 1.125rem/1.75rem var(--baseFont);
+    --body1-bold: 700 1.125rem/1.75rem var(--baseFont);
+    --body2-regular: 400 1rem/normal var(--baseFont);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--baseFont);
+    background-color: var(--black);
+    color: var(--white)
+}
