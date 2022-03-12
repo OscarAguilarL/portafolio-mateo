@@ -106,20 +106,20 @@ const Header = () => {
   }
 
   return (
-    <HeaderStyled id="about">
+    <HeaderStyled>
       <a href="/">
-        <h1>Oscar Aguilar</h1>
+        <h1>Mateo Martínez</h1>
       </a>
 
       <NavStyled isOpen={menuOpen}>
         <a onClick={handleNavClick} href="#">
-          About me
+          Proyectos
         </a>
         <a onClick={handleNavClick} href="#">
-          Projects
+          Experiencia
         </a>
         <a onClick={handleNavClick} href="#">
-          Contact
+          Contacto
         </a>
       </NavStyled>
       <MenuButton onClick={handleMenuClick}>
