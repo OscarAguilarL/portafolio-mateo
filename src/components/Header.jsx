@@ -78,7 +78,6 @@ const NavStyled = styled.nav`
 `;
 
 const MenuButton = styled.div`
-  position: fixed;
   right: 1.5rem;
   top: 1rem;
   border-radius: 50%;
